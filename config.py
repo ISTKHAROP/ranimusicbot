@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkharalam62/ranimusicbot",
+    "https://github.com/BADANAM001/ranimusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUNNA_BHAIYA_CHAT_GRUP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THUNDER_NETWORKS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/friends_kiDuniya")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BOT_X_HUB_YADAV")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -98,7 +98,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ac95ea3bab57eacd7c7cf.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/f6b2e18ecae7ffb6a9c88.jpg"
