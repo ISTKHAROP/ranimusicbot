@@ -51,3 +51,4 @@ qrcode
 pytz
 pydub
 apscheduler
+pymongo==4.9.3
